@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "secondary_announcements",
+  "info": {
+    "singularName": "secondary-announcement",
+    "pluralName": "secondary-announcements",
+    "displayName": "Secondary Announcement",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "maxLength": 180
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "mobileImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
